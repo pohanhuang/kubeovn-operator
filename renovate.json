@@ -19,6 +19,16 @@
         "minor"
       ],
       "enabled": false
+    },
+    {
+      "description": "Label PRs with target branch name",
+      "matchBaseBranches": [
+        "release-1.14",
+        "release-1.15"
+      ],
+      "addLabels": [
+        "{{baseBranch}}"
+      ]
     }
   ]
 }
