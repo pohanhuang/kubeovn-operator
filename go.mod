@@ -1,6 +1,6 @@
 module github.com/harvester/kubeovn-operator
 
-go 1.26
+go 1.26.4
 
 godebug default=go1.26.3
 
@@ -192,6 +192,4 @@ require (
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
 )
 
-replace (
-	k8s.io/kubelet => github.com/k3s-io/kubernetes/staging/src/k8s.io/kubelet v1.21.0-k3s1
-)
+replace k8s.io/kubelet => github.com/k3s-io/kubernetes/staging/src/k8s.io/kubelet v1.21.0-k3s1
