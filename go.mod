@@ -1,6 +1,6 @@
 module github.com/harvester/kubeovn-operator
 
-go 1.26
+go 1.26.4
 
 godebug default=go1.26.3
 
